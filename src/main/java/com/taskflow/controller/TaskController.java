@@ -23,4 +23,8 @@ public class TaskController {
     public List<Task> getAllTasks(){
         return taskService.getAllTask();
     }
+
+    public void getMessage(){
+        System.out.println("hi this is the task flow project");
+    }
 }
