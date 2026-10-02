@@ -24,7 +24,7 @@ public class TaskController {
         return taskService.getAllTask();
     }
 
-    @GetMapping
+    @GetMapping("/message")
     public void getMessage(){
         System.out.println("hi this is the task flow project");
     }
